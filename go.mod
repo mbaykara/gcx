@@ -27,11 +27,11 @@ require (
 	github.com/grafana/grafana/apps/folder v0.0.0-20250724095330-d852bde2a5fb
 	github.com/grafana/grafana/pkg/apimachinery v0.0.0-20250903133002-4e28cba1c53a
 	github.com/grafana/loki/v3 v3.4.2 // pinned: v3.5+ requires loki/pkg/push pseudo-versions not on Go proxy; also pins prometheus+strfmt versions below
-	github.com/grafana/promql-builder/go v0.0.0-20250916111012-8fa9625b89a3
+	github.com/grafana/promql-builder/go v0.0.4
 	github.com/huandu/xstrings v1.5.0
 	github.com/invopop/jsonschema v0.14.0
 	github.com/olekukonko/tablewriter v1.1.4
-	github.com/open-policy-agent/opa v1.16.1
+	github.com/open-policy-agent/opa v1.16.2
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
 	github.com/prometheus/prometheus v0.55.0 // pinned: loki v3.4.2 depends on v0.55.0 package layout (tsdb/errors, otlptranslator); upgrade requires loki upgrade first
 	github.com/spf13/cobra v1.10.2
